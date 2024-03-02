@@ -1,0 +1,19 @@
+{
+  "name": "tesst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.3",
+    "nanoid": "^5.0.6",
+    "nodemon": "^3.1.0"
+  }
+}
